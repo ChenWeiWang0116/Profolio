@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- if change en to zh，the website language will change from Chinese to English -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Chen-Wei Wang">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index,follow">
+        <!-- 若將_self改成_blank，啟動連結時會在新分頁開啟 -->
+        <base target="_self">    
+        <meta name="description" content="這是Chen Wei, Wang的個人網站。">
+        <title>我的履歷 | Chen Wei 網頁前端工程師</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="#" class="active">我的履歷</a></li>
+                <li><a href="contact.html">聯絡方式</a></li>
+                <li><a href="project.html">個人作品</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="table">
+            <table>
+                <!-- 第一列 -->
+                <tr style="border-top: 2px solid gray">
+                    <td style="width: 30%">自我簡介</td>
+                    <td style="width: 70%">
+                        碩士期間的研究項目為管件液壓成形，
+                        利用CAE進行成形模擬與缺陷分析
+                        探討製程使用的條件，並優化製程設計流程。</td>
+                </tr>
+                
+                <!-- 下一列 -->
+
+                <tr>
+                    <td>學歷</td>
+                    <td>
+                        <ol>
+                            <li>國立中興大學 機械工程學系學士</li>
+                            <li>國立臺灣大學 機械工程學系碩士</li>
+                        </ol>
+                    </td>
+                </tr>
+                <!-- 下一列 -->
+                <tr>
+                    <td>社團經歷</td>
+                    <td>
+                        <ol>
+                            <li>高中 - 桌球社 [社長]</li>
+                            <li>大學 - 崇德青年社 [育幼院課後輔導]</li>
+                        </ol>
+                    </td>
+                </tr>
+                <!-- 下一列 -->
+                <tr>
+                    <td >專長</td>
+                    <td>
+                        <img src="./ICONS/icons8-html-5.svg" title="HTML5" alt="HTML5">
+                        <img src="./ICONS/icons8-css3.svg" title="CSS3" alt="CSS3">
+                        <img src="./ICONS/icons8-javascript.svg" title="JavaScipt" alt="JavaScipt">
+                        <img src="./ICONS/icons8-react-native.svg" title="React "alt="React">
+                    </td>
+                </tr>
+            </table>
+        </section>
+        
+        <section class="picture">
+            <!-- 照片的長寬比為 6 : 8 -->
+            <img src="./個人照片.jpg" alt="">
+            <div class="orangeRect"></div>
+        </section>
+    </main>
+</body>
+</html>
